@@ -1,0 +1,15 @@
+{
+    "name": "Perpustakaan SMPN 26 Kota Jambi",
+    "short_name": "Perpustakaan",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/assets/img/icons/icon.png",
+            "sizes": "509x399",
+            "type": "image/png"
+        }
+    ]
+}
