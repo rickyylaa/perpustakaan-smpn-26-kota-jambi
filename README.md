@@ -1,4 +1,4 @@
-# Perpustakaan Sekolah SMPN 11 Kota Jambi
+# Perpustakaan Sekolah SMPN 26 Kota Jambi
 
 Aplikasi web berbasis Laravel untuk mengelola sistem perpustakaan di SMPN 26 Kota Jambi. Proyek ini dirancang untuk membantu siswa dan staf perpustakaan dalam meminjam, mengembalikan, dan memantau koleksi buku secara efisien.
 
