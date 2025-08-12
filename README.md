@@ -1,6 +1,6 @@
 # 📚 Perpustakaan Sekolah SMPN 26 Kota Jambi
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-orange.svg)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-purple.svg)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue.svg)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -28,7 +28,6 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
-```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
