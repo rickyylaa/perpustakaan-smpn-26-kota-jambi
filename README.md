@@ -1,84 +1,60 @@
-# Perpustakaan Sekolah SMPN 26 Kota Jambi
+# 📚 Perpustakaan Sekolah SMPN 26 Kota Jambi
 
-Aplikasi web berbasis Laravel untuk mengelola sistem perpustakaan di SMPN 26 Kota Jambi. Proyek ini dirancang untuk membantu siswa dan staf perpustakaan dalam meminjam, mengembalikan, dan memantau koleksi buku secara efisien.
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-orange.svg)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.2+-purple.svg)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue.svg)](https://mysql.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> ⚠️ Proyek ini masih dalam tahap pengembangan.
+## 🚀 Instalasi
 
----
+### Prasyarat
+- PHP 8.2+
+- Composer 2.2+
+- MySQL 8.0+
 
-## ⚙️ Instalasi
-
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di komputer lokal Anda:
-
-### 1. Clone Repositori
-
-Pertama, clone repositori ini ke mesin lokal Anda:
-
+### Langkah 1: Clone Repositori
 ```bash
 git clone https://github.com/rickyylaa/perpustakaan-smpn-26-kota-jambi.git
 cd perpustakaan-smpn-26-kota-jambi
 ```
 
-### 2. Install Dependensi
-
-Install semua dependensi PHP dan JavaScript yang diperlukan:
-
+### Langkah 2: Install Dependensi
 ```bash
 composer install
-npm install && npm run dev
 ```
 
-### 3. Salin File .env
-
-Salin file konfigurasi .env.example ke .env:
-
+### Langkah 3: Konfigurasi Environment
 ```bash
 cp .env.example .env
-```
-
-### 4. Generate App Key
-
-Generate aplikasi key untuk keamanan:
-
-```bash
 php artisan key:generate
-```
 
-### 5. Konfigurasi .env
-
-Buka file .env dan sesuaikan konfigurasi database dan lainnya sesuai lingkungan Anda, misalnya:
-
-```bash
+```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=perpustakaan_sekolah
+DB_DATABASE=perpustakaan
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 6. Migrate dan Seeder
-
-Jalankan perintah berikut untuk melakukan migrasi ulang dan langsung mengeksekusi seeder:
-
+### Langkah 4: Database Setup
 ```bash
 php artisan migrate
-php artisan migrate:fresh --seed
+php artisan db:seed
 ```
 
-### 7. Optimize
-
-Dikarenakan ini menggunakan laravel 12, jadi disarankan optimize 2x:
-
+### Langkah 5: Optimasi 2x
 ```bash
 php artisan optimize
+php artisan optimize
 ```
-### 8. Jalankan Server
 
-Jalankan server lokal Laravel:
+### Langkah 6: Storage Link
+```bash
+php artisan storage:link
+```
 
+### Langkah 7: Jalankan Aplikasi
 ```bash
 php artisan serve
 ```
-
-Aplikasi akan berjalan di http://localhost:8000.
